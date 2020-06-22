@@ -1,0 +1,198 @@
+/*轮播图*/
+.main-slider {
+    float: left;
+    margin: 12px 0 0 220px;
+    width: 730px;
+    height: 454px;
+    position: relative;
+}
+
+.main-slider ul{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -66px;
+}
+
+.main-slider ul li{
+    float: left;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    background-color: #3E3E3E;
+    border-radius: 50%;
+    line-height: 18px;
+    text-align: center;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.main-slider .arrow-left{
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    left: 0px;
+    width: 28px;
+    height: 62px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    font: 400 22px/62px "sumsun";
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+.main-slider .arrow-left:hover {
+    background-color: rgba(0,0,0,0.7);
+}
+.main-slider .arrow-right{
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    right: 0px;
+    width: 28px;
+    height: 62px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    font: 400 22px/62px "sumsun";
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+}
+.main-slider .arrow-right:hover {
+    background-color: rgba(0,0,0,0.7);
+}
+
+/*京东快报*/
+.main-news{
+    float: right;
+    width: 200px;
+    height: 454px;
+    margin: 12px 40px 0 0;
+}
+.main-news-top-faster{
+    height: 168px;
+    border-bottom: 1px dashed #E4E4E4;
+}
+.main-news-top-faster-title{
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px dotted #E8E8E8;
+}
+.main-news-top-faster-title h2{
+    float: left;
+    font: 400 16px/32px "microsoft yahei";
+}
+.main-news-top-faster-title a{
+    float: right;
+}
+.main-news-top-faster-content{
+    padding: 5px 0 0 15px;
+}
+.main-news-top-faster-content li{
+    line-height: 24px;
+}
+.main-news-top-faster-content span{
+    font-weight: 700;
+    margin-right: 5px;
+    color: #666;
+}
+.main-news-top-money ul {
+    width: 250px;
+}
+
+/*充话费部分*/
+.main-news-top-money{
+    overflow: hidden;
+}
+.main-news-top-money ul {
+    padding:0px 0px 0px 5px;
+    width: 250px;   /*让宽度略大于整体的宽度250px*/
+}
+.main-news-top-money li{
+    width: 62px;
+    height: 70px;
+    border: 1px solid #E8E8E8;
+    float: left;
+    margin-top: -1px;
+    margin-left: -1px;
+}
+.main-news-top-money li a{
+    display: block;
+    width: 62px;
+    height: 30px;
+    padding-top: 40px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+}
+.main-news-top-money li a i{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    background: url("../images/pspend.png") right top;
+    background-size: 25px 25px;
+}
+.main-news-top-money .main-news-top-money-icon2{
+    background: url("../images/fly.png") right -25px;
+    background-size: 25px 25px;
+}
+
+/*今日推荐start*/
+.today{
+    padding: 10px 0 20px;
+}
+.today-left a{
+    display: block;
+    width: 210px;
+    height: 150px;
+    margin-top: 20px;
+    background: url("../images/today.jpg") no-repeat;
+}
+.today-right{
+    position: relative;
+    float: right;
+    width: 1000px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.today-right ul{
+    width: 400%;
+    padding-left: 20px;
+}
+.today-right li{
+    float: left;
+    margin-right: 50px;
+}
+.today-right .arrow-left{
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    width: 28px;
+    height: 62px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    font: 400 22px/62px "sumsun";
+    border-radius: 10px 0px 0px 10px;
+}
+.today-right .arrow-right{
+    position: absolute;
+    top: 30%;
+    right: 230px;
+    width: 28px;
+    height: 62px;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    font: 400 22px/62px "sumsun";
+    border-radius: 0px 10px 10px 0px;
+}
+
+/*banner两侧的广告start*/
+.banner-ad {
+    position: relative;
+}
+
+.banner-ad a {
+    width: 100%;
+    height: 644px;
+    background: url("../images/adl.png") no-repeat left top;
+    position: absolute;
+}
